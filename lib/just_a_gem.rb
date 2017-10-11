@@ -1,8 +1,9 @@
 require 'net/http'
 require 'json'
 
-# After all, this is just a gem
+# After all, this is just a gem.
 # This gem retrieve newest reddit topics, and return their titles in a list.
+# Usage example: JustAGem.new().get_newest_reddit_titles
 class JustAGem
 
   def initialize(uri="https://www.reddit.com/r/subreddit/new.json")
